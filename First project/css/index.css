@@ -1,0 +1,51 @@
+/* CSS Document */
+body{
+	background: #2FA7CC;
+}
+.center{
+	position: absolute;
+	left: 40%;
+}
+.fang{
+	background-color: black;
+	position: absolute;
+	transform: translate(50%,50%);
+	top:10%;
+	left:30%;
+	bottom: auto;
+	font-size: 10px;
+	width: 500px;
+	height: 290px;
+	border-radius: 15px;
+}
+.big{
+	width: 450px;
+	height: 40px;
+	border-radius: 15px;
+}
+.Login{
+	height: 60px;
+	width:400px;
+	position: absolute;
+	left:50px;
+	top:180px;
+	background-image: linear-gradient(#00F5FF,#00E5EE,#00C5CD,#00868B);
+	border-radius: 10px;
+}
+button:hover{
+	background-image: linear-gradient(#7FFFD4,#76EEC6,#66CDAA);
+}
+button:active{
+	background-image: linear-gradient(#FFD700,#EEC900,#CDAD00);
+}
+.servce{
+	position: absolute;
+	top:250px;
+	left:10px;
+}
+.mail{
+	position: absolute;
+	top:250px;
+	left:400px;
+	display: block;
+}
